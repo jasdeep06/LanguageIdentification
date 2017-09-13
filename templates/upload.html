@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Upload</title>
+</head>
+<body>
+<p>PLEASE UPLOAD AUDIO </p>
+<form method=POST enctype=multipart/form-data action="{{url_for('upload')}}">
+    <input type=file name=sound>
+    <input type="submit">
+</form>
+</body>
+</html>

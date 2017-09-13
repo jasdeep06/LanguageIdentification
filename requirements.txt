@@ -1,0 +1,6 @@
+Flask==0.12.2
+numpy==1.11.1
+scikit-learn>=0.18
+python_speech_features==0.6
+scipy==0.19.0
+Flask_Uploads==0.2.1
